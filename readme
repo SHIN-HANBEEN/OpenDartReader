@@ -23,15 +23,14 @@
    pip install opendartreader
    pip install openai
 
-2. 환경설정
-   환경변수에 Open AI 키를 등록 시켜야 한다. 
-   시스템 변수에 OPENAI_API_KEY로 등록한다.
-
-3. OPEN_API_KEY 발급
+2. OPEN_API_KEY 발급
    https://openai.com/ko-KR/index/openai-api/ 접속 후 회원가입. 
    로그인 - 우측 상단 Settings - API Keys - Create new secret key - 복사
    Billing 에 카드 등록 필요
 
+3. 환경설정
+   환경변수에 Open AI 키를 등록 시켜야 한다. 
+   시스템 변수에 OPENAI_API_KEY로 등록한다.
 
 ## 참고 자료
 - [OpenDartReader Wiki](https://wikidocs.net/230304)

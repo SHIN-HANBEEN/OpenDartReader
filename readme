@@ -1,0 +1,42 @@
+# OpenDartReader 기업 수익 조회기
+
+## 개요
+이 프로젝트는 OpenDartReader를 사용하여 기업의 수익을 확인하는 시스템입니다. 기업의 재무 데이터, 공시 정보를 조회하고 분석할 수 있습니다.
+
+## 주요 기능
+- OpenDartReader에서 기업 공시 데이터 가져오기
+- LangChain을 활용한 데이터 분석 및 처리
+
+## 설치 방법
+1. 저장소를 클론합니다:
+   ```sh
+   git clone https://github.com/yourusername/OpenDartReader.git
+   ```
+2. 의존성 패키지를 설치합니다:
+   ```sh
+   pip install opendartreader
+   ```
+
+## 사용법
+1. 사전 설치
+   python 3.10.9 (버전 문제 주의)
+   pip install opendartreader
+   pip install openai
+
+2. 환경설정
+   환경변수에 Open AI 키를 등록 시켜야 한다. 
+   시스템 변수에 OPENAI_API_KEY로 등록한다.
+
+3. OPEN_API_KEY 발급
+   https://openai.com/ko-KR/index/openai-api/ 접속 후 회원가입. 
+   로그인 - 우측 상단 Settings - API Keys - Create new secret key - 복사
+   Billing 에 카드 등록 필요
+
+
+## 참고 자료
+- [OpenDartReader Wiki](https://wikidocs.net/230304)
+- [OpenDartReader Github](https://github.com/FinanceData/OpenDartReader)
+
+## 라이선스
+MIT
+
